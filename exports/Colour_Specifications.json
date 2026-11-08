@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Papua Brown",
+    "hex": "#7E2F19",
+    "rgb": [
+      126,
+      47,
+      25
+    ],
+    "cmyk": [
+      24,
+      83,
+      91,
+      29
+    ],
+    "role": "Master brand / major headings"
+  },
+  {
+    "name": "Bark Clay",
+    "hex": "#A65A2A",
+    "rgb": [
+      166,
+      90,
+      42
+    ],
+    "cmyk": [
+      22,
+      65,
+      86,
+      12
+    ],
+    "role": "Warm accents / calls to action"
+  },
+  {
+    "name": "Ochre Clay",
+    "hex": "#C98A5B",
+    "rgb": [
+      201,
+      138,
+      91
+    ],
+    "cmyk": [
+      17,
+      46,
+      68,
+      3
+    ],
+    "role": "Highlights / graphic detail"
+  },
+  {
+    "name": "Sandstone",
+    "hex": "#DCCAAF",
+    "rgb": [
+      220,
+      202,
+      175
+    ],
+    "cmyk": [
+      13,
+      18,
+      31,
+      0
+    ],
+    "role": "Kri base / tactile fields"
+  },
+  {
+    "name": "Coral Sand",
+    "hex": "#EFE5D6",
+    "rgb": [
+      239,
+      229,
+      214
+    ],
+    "cmyk": [
+      5,
+      8,
+      14,
+      0
+    ],
+    "role": "Secondary neutral / panels"
+  },
+  {
+    "name": "Natural Linen",
+    "hex": "#F6F1EB",
+    "rgb": [
+      246,
+      241,
+      235
+    ],
+    "cmyk": [
+      3,
+      4,
+      7,
+      0
+    ],
+    "role": "Primary field / logo holding shape"
+  },
+  {
+    "name": "Bark Charcoal",
+    "hex": "#2B2A27",
+    "rgb": [
+      43,
+      42,
+      39
+    ],
+    "cmyk": [
+      69,
+      63,
+      67,
+      72
+    ],
+    "role": "Body copy / dark neutral"
+  },
+  {
+    "name": "Sago Leaf",
+    "hex": "#A8B69A",
+    "rgb": [
+      168,
+      182,
+      154
+    ],
+    "cmyk": [
+      36,
+      19,
+      41,
+      2
+    ],
+    "role": "Kri accent / conservation cues"
+  },
+  {
+    "name": "Lagoon Reef Teal",
+    "hex": "#1A5E63",
+    "rgb": [
+      26,
+      94,
+      99
+    ],
+    "cmyk": [
+      85,
+      34,
+      42,
+      18
+    ],
+    "role": "Sorido accent only"
+  }
+]

@@ -1,0 +1,5 @@
+.DS_Store
+brief_assets/
+exports/previews/
+exports/board-previews/
+assets/*_page_*.png

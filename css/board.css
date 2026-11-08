@@ -1,0 +1,25 @@
+:root{--linen:#F6F1EB;--coral:#EFE5D6;--brown:#7E2F19;--clay:#A65A2A;--ochre:#C98A5B;--sago:#A8B69A;--char:#2B2A27;--sand:#DCCAAF;--teal:#1A5E63;
+--disp:'Tenor Sans',serif;--body:'Source Sans 3',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1600px;height:1200px;overflow:hidden;background:var(--linen);color:var(--char);font-family:var(--body);font-size:13px;line-height:1.4}
+.board{position:relative;width:1600px;height:1200px;overflow:hidden;background:var(--linen);padding:0 48px}
+.hdr{height:64px;display:flex;align-items:center;justify-content:space-between;border-bottom:1.5px solid var(--brown);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brown);font-weight:600}
+.hdr b{font-family:var(--disp);font-weight:400;font-size:13px;letter-spacing:.22em}
+.ftr{position:absolute;left:48px;right:48px;bottom:0;height:40px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--sand);font-size:11px;letter-spacing:.08em;color:#6b5a4a}
+.content{position:absolute;left:48px;right:48px;top:64px;bottom:40px;padding:14px 0}
+.card{background:var(--coral);border-radius:2px;padding:16px 18px;position:relative;overflow:hidden}
+.card.w{background:#fff9}
+.card.d{background:var(--char);color:var(--linen)}
+.kick{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);font-weight:600;margin-bottom:6px}
+.d .kick{color:var(--ochre)}
+h1{font-family:var(--disp);font-weight:400;font-size:40px;line-height:1.1;color:var(--brown)}
+h2{font-family:var(--disp);font-weight:400;font-size:22px;line-height:1.15;color:var(--brown);margin-bottom:8px}
+.d h2{color:var(--linen)}
+h3{font-family:var(--disp);font-weight:400;font-size:16px;color:var(--brown);margin-bottom:4px}
+p{font-size:13px;line-height:1.45}
+.sm{font-size:11.5px;line-height:1.4;color:#5b4d40}
+.d .sm{color:#d9cdbd}
+.logo{mix-blend-mode:multiply;display:block}
+.tag{display:inline-block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border:1px solid currentColor;border-radius:2px;font-weight:600}
+.cover{object-fit:cover;width:100%;height:100%;display:block}
+@page{size:1600px 1200px;margin:0}@media print{html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}

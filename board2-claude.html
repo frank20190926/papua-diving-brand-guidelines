@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>02 / Color System &amp; Typography — Papua Diving Resorts</title>
+<meta name="viewport" content="width=1600">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/board.css">
+<style>
+.cols{display:grid;grid-template-columns:770px 1fr;gap:14px;height:100%}
+.left{display:grid;grid-template-rows:auto auto auto 1fr;gap:10px;min-height:0}
+.swg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.sw{background:#fff9;padding:7px 8px 6px;border-radius:2px}
+.chip{height:52px;border-radius:2px;display:flex;align-items:flex-end;justify-content:space-between;padding:6px 8px;margin-bottom:5px}
+.chip .big{font-family:var(--disp);font-size:26px;line-height:1}
+.sw h3{font-size:14px;margin:0}
+.hex{font-weight:700;font-size:16px;letter-spacing:.04em;color:var(--char)}
+.v{font-size:11px;line-height:1.35;color:#4a3d32}.v b{display:inline-block;width:42px;color:var(--clay);font-weight:600;letter-spacing:.06em}
+.use{font-size:10.5px;color:#6b5a4a;margin-top:2px;line-height:1.25;min-height:26px}
+.ratio{display:flex;height:40px;border-radius:2px;overflow:hidden;margin-top:4px}
+.ratio div{display:flex;align-items:center;padding:0 10px;font-size:11px;font-weight:600;letter-spacing:.06em}
+.wt{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.wb{display:flex;height:30px;border-radius:2px;overflow:hidden;margin:3px 0 4px}
+.right{display:grid;grid-template-rows:176px 372px 1fr;gap:10px;min-height:0}
+.fam{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.aa{font-size:78px;line-height:.9;color:var(--brown)}
+table{width:100%;border-collapse:collapse;font-size:12px}
+td,th{padding:9px 6px;border-bottom:1px solid var(--sand);text-align:left;vertical-align:baseline}
+th{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--clay);font-weight:600}
+.spec{display:grid;grid-template-columns:1fr 1fr;gap:0;height:calc(100% - 26px)}
+.pg{padding:16px 20px}
+.pg .k{font-family:var(--body);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+.pg h4{font-family:var(--disp);font-weight:400;font-size:32px;line-height:36px;margin:6px 0 4px}
+.pg .sub{font-family:var(--body);font-weight:600;font-size:14px;line-height:20px;margin-bottom:6px}
+.pg p{font-size:14px;line-height:20.67px;margin-bottom:8px}
+.pg .cp{font-size:10.7px;line-height:14.7px;font-style:italic;opacity:.8;margin-top:6px}
+</style></head>
+<body><div class="board">
+<div class="hdr"><b>PAPUA DIVING RESORTS</b><span>Colour System &amp; Typography Hierarchy</span><span>Board 02 / 04</span></div>
+<div class="content"><div class="cols">
+<div class="left">
+ <div><div class="kick">02 / Master Palette · .ASE / CMYK / RGB / HEX</div><h2 style="margin-bottom:6px">Bark &amp; Reef: nine colours, one warm base</h2>
+ <div class="swg">
+<div class="sw"><div class="chip" style="background:#7E2F19;color:#F6F1EB;"><span class="tag">AAA</span><span class="big">Aa</span></div>
+<h3>Papua Brown</h3><div class="hex">#7E2F19</div><div class="v"><b>RGB</b> 126 · 47 · 25</div><div class="v"><b>CMYK</b> 24 · 83 · 91 · 29</div><div class="v"><b>PMS</b> ≈ 1815 C</div><div class="v"><b>WCAG</b> 8.10:1 on Linen</div><div class="use">Headlines, logo glyph, primary fills</div></div>
+<div class="sw"><div class="chip" style="background:#A65A2A;color:#F6F1EB;"><span class="tag">AA</span><span class="big">Aa</span></div>
+<h3>Bark Clay</h3><div class="hex">#A65A2A</div><div class="v"><b>RGB</b> 166 · 90 · 42</div><div class="v"><b>CMYK</b> 22 · 65 · 86 · 12</div><div class="v"><b>PMS</b> ≈ 7516 C</div><div class="v"><b>WCAG</b> 4.54:1 on Linen</div><div class="use">Rules, links, secondary fills</div></div>
+<div class="sw"><div class="chip" style="background:#C98A5B;color:#2B2A27;"><span class="tag">AA</span><span class="big">Aa</span></div>
+<h3>Ochre Clay</h3><div class="hex">#C98A5B</div><div class="v"><b>RGB</b> 201 · 138 · 91</div><div class="v"><b>CMYK</b> 17 · 46 · 68 · 3</div><div class="v"><b>PMS</b> ≈ 7514 C</div><div class="v"><b>WCAG</b> 4.97:1 on Charcoal</div><div class="use">Borders, motifs, accents (not text on light)</div></div>
+<div class="sw"><div class="chip" style="background:#DCCAAF;color:#2B2A27;"><span class="tag">AAA</span><span class="big">Aa</span></div>
+<h3>Sandstone</h3><div class="hex">#DCCAAF</div><div class="v"><b>RGB</b> 220 · 202 · 175</div><div class="v"><b>CMYK</b> 13 · 18 · 31 · 0</div><div class="v"><b>PMS</b> ≈ 7500 C</div><div class="v"><b>WCAG</b> 8.96:1 on Charcoal</div><div class="use">Panels, dividers, quiet fills</div></div>
+<div class="sw"><div class="chip" style="background:#EFE5D6;color:#2B2A27;border:1px solid #0002;"><span class="tag">AAA</span><span class="big">Aa</span></div>
+<h3>Coral Sand</h3><div class="hex">#EFE5D6</div><div class="v"><b>RGB</b> 239 · 229 · 214</div><div class="v"><b>CMYK</b> 5 · 8 · 14 · 0</div><div class="v"><b>PMS</b> ≈ 7500 C @ 20%</div><div class="v"><b>WCAG</b> 11.52:1 on Charcoal</div><div class="use">Cards, secondary backgrounds</div></div>
+<div class="sw"><div class="chip" style="background:#F6F1EB;color:#2B2A27;border:1px solid #0002;"><span class="tag">AAA</span><span class="big">Aa</span></div>
+<h3>Natural Linen</h3><div class="hex">#F6F1EB</div><div class="v"><b>RGB</b> 246 · 241 · 235</div><div class="v"><b>CMYK</b> 3 · 4 · 7 · 0</div><div class="v"><b>PMS</b> ≈ Paper stock / 7500 C @ 8%</div><div class="v"><b>WCAG</b> 12.78:1 on Charcoal</div><div class="use">Primary background, logo holding shape</div></div>
+<div class="sw"><div class="chip" style="background:#2B2A27;color:#F6F1EB;"><span class="tag">AAA</span><span class="big">Aa</span></div>
+<h3>Bark Charcoal</h3><div class="hex">#2B2A27</div><div class="v"><b>RGB</b> 43 · 42 · 39</div><div class="v"><b>CMYK</b> 69 · 63 · 67 · 72</div><div class="v"><b>PMS</b> ≈ Black 7 C</div><div class="v"><b>WCAG</b> 12.78:1 on Linen</div><div class="use">Body text, dark surfaces</div></div>
+<div class="sw"><div class="chip" style="background:#A8B69A;color:#2B2A27;"><span class="tag">AA</span><span class="big">Aa</span></div>
+<h3>Sago Leaf</h3><div class="hex">#A8B69A</div><div class="v"><b>RGB</b> 168 · 182 · 154</div><div class="v"><b>CMYK</b> 36 · 19 · 41 · 2</div><div class="v"><b>PMS</b> ≈ 7494 C</div><div class="v"><b>WCAG</b> 6.71:1 on Charcoal</div><div class="use">Kri Eco fills, foliage accents</div></div>
+<div class="sw"><div class="chip" style="background:#1A5E63;color:#F6F1EB;"><span class="tag">AA</span><span class="big">Aa</span></div>
+<h3>Raja Ampat Lagoon Teal</h3><div class="hex">#1A5E63</div><div class="v"><b>RGB</b> 26 · 94 · 99</div><div class="v"><b>CMYK</b> 85 · 34 · 42 · 18</div><div class="v"><b>PMS</b> ≈ 7476 C</div><div class="v"><b>WCAG</b> 6.62:1 on Linen</div><div class="use">Sorido accent only (digital links, reef cues)</div></div>
+ </div></div>
+ <div class="card w" style="padding:10px 14px"><div class="kick" style="margin-bottom:2px">Usage ratio</div>
+  <div class="ratio"><div style="width:60%;background:var(--linen);border:1px solid var(--sand);color:var(--char)">60% WARM NEUTRALS · Linen, Coral Sand, Sandstone</div><div style="width:25%;background:var(--brown);color:var(--linen)">25% EARTH BROWNS</div><div style="width:15%;background:var(--sago);color:var(--char);justify-content:center">15% REEF</div></div>
+  <div class="sm" style="margin-top:3px">Earth Browns: Papua Brown, Bark Clay, Ochre Clay. Foliage &amp; Reef accents: Sago Leaf, and Lagoon Teal for Sorido only. Bark Charcoal is the text colour and sits outside the ratio.</div></div>
+ <div class="card w" style="padding:10px 14px"><div class="kick" style="margin-bottom:2px">Sub-brand colour weighting</div>
+  <div class="wt"><div><h3>Sorido Bay Resort · Upscale Boutique</h3><div class="wb"><i style="flex:50;background:#F6F1EB;border:1px solid var(--sand)"></i><i style="flex:5;background:#EFE5D6"></i><i style="flex:5;background:#DCCAAF"></i><i style="flex:20;background:#7E2F19"></i><i style="flex:5;background:#A65A2A"></i><i style="flex:10;background:#C98A5B"></i><i style="flex:5;background:#1A5E63"></i></div><div class="sm">Linen-led, with Papua Brown and Ochre. Lagoon Teal, Sorido's only reef accent, kept to 5%.</div></div>
+  <div><h3>Kri Eco Resort · Eco-Pioneer</h3><div class="wb"><i style="flex:30;background:#F6F1EB;border:1px solid var(--sand)"></i><i style="flex:10;background:#EFE5D6"></i><i style="flex:5;background:#DCCAAF"></i><i style="flex:5;background:#7E2F19"></i><i style="flex:10;background:#A65A2A"></i><i style="flex:5;background:#C98A5B"></i><i style="flex:30;background:#A8B69A"></i><i style="flex:5;background:#DCCAAF"></i></div><div class="sm">Sago Leaf rises to 30%; Papua Brown is used for accents only. Lagoon Teal is not used for Kri.</div></div></div></div>
+ <div class="card w" style="padding:10px 14px"><div class="kick" style="margin-bottom:4px">Approved text pairings</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px">
+   <div style="background:#F6F1EB;color:#7E2F19;padding:8px;border:1px solid var(--sand);font-size:12px"><b style="font-family:var(--disp);font-weight:400;font-size:15px">Papua Brown</b><br>on Linen · 8.10:1</div>
+   <div style="background:#2B2A27;color:#C98A5B;padding:8px;font-size:12px"><b style="font-family:var(--disp);font-weight:400;font-size:15px">Ochre Clay</b><br>on Charcoal · 4.97:1</div>
+   <div style="background:#1A5E63;color:#F6F1EB;padding:8px;font-size:12px"><b style="font-family:var(--disp);font-weight:400;font-size:15px">Linen</b><br>on Teal · 6.62:1</div>
+   <div style="background:#C98A5B;color:#F6F1EB;padding:8px;font-size:12px;position:relative"><b style="font-family:var(--disp);font-weight:400;font-size:15px">Linen on Ochre</b><br>2.57:1 · <b>not approved</b></div></div>
+  <div class="sm" style="margin-top:6px">Ratios calculated per WCAG 2.1. AAA ≥ 7:1, AA ≥ 4.5:1. Ochre Clay is a trim and fill colour; it is not used for text on light backgrounds.</div></div>
+</div>
+
+<div class="right">
+ <div class="fam">
+  <div class="card w"><div class="kick">Display · Tenor Sans</div><div class="aa" style="font-family:var(--disp)">Aa</div><div class="sm" style="margin-top:6px">H1 / H2 / H3, cover titles, pull quotes. Single weight (Regular). Replaces Karla.</div></div>
+  <div class="card w"><div class="kick">Text · Source Sans 3</div><div class="aa" style="font-family:var(--body);font-weight:600">Aa</div><div class="sm" style="margin-top:6px">Subheads, body copy, captions, tables. Regular 400 / SemiBold 600 / Bold 700.</div></div>
+ </div>
+ <div class="card w"><div class="kick">Approved Type Hierarchy</div>
+  <table><tr><th>Level</th><th>Face · weight</th><th>Size / leading</th><th>Sample</th></tr>
+  <tr><td>H1</td><td>Tenor Sans 400</td><td>44 / 50 pt</td><td style="font-family:var(--disp);font-size:24px;color:var(--brown);line-height:1">Raja Ampat</td></tr>
+  <tr><td>H2</td><td>Tenor Sans 400</td><td>28 / 34 pt</td><td style="font-family:var(--disp);font-size:19px;color:var(--brown);line-height:1">Sorido Bay Resort</td></tr>
+  <tr><td>H3</td><td>Tenor Sans 400</td><td>18 / 24 pt</td><td style="font-family:var(--disp);font-size:15px;color:var(--brown);line-height:1">Kri Eco Resort</td></tr>
+  <tr><td>Subhead</td><td>Source Sans 3 600, caps, +120 tracking</td><td>11 / 16 pt</td><td style="font-size:11px;letter-spacing:.14em;font-weight:600;text-transform:uppercase;color:var(--clay)">Dive the richest reefs</td></tr>
+  <tr><td>Body copy</td><td>Source Sans 3 400</td><td><b>10.5 / 15.5 pt</b></td><td style="font-size:14px">Warm, plain, human.</td></tr>
+  <tr><td>Caption</td><td>Source Sans 3 400 italic</td><td>8 / 11 pt</td><td style="font-size:11px;font-style:italic">Photo: employer archive</td></tr>
+  <tr><td>Table text</td><td>Source Sans 3 400 / 600</td><td>9 / 12 pt</td><td style="font-size:12px"><b>Depth</b> 18 m</td></tr></table></div>
+ <div class="card" style="padding:12px 14px"><div class="kick" style="margin-bottom:4px">Live specimen · same grid, two voices</div>
+  <div class="spec">
+   <div class="pg" style="background:var(--brown);color:var(--linen)"><div class="k" style="color:var(--ochre)">Upscale Boutique</div><h4>Sorido Bay Resort</h4><div class="sub" style="color:var(--sand)">Quiet luxury above the reef</div><p>Wake to still water and the sound of the jetty. Every detail, from the linen to the first coffee, has been chosen with care and delivered with unhurried Papuan warmth.</p><p style="font-family:var(--disp);font-size:20px;line-height:26px;color:var(--ochre);border-top:1px solid var(--clay);padding-top:12px;margin-top:14px">“Still water, slow mornings.”</p><p class="cp">Body 10.5 / 15.5 pt · Source Sans 3 &nbsp;·&nbsp; Pull quote Tenor Sans 15 pt</p></div>
+   <div class="pg" style="background:var(--sago);color:var(--char)"><div class="k" style="color:var(--brown)">Authentic Eco-Pioneer</div><h4 style="color:var(--char)">Kri Eco Resort</h4><div class="sub" style="color:var(--brown)">Simple stays, close to the reef</div><p>Step off the deck and into the water. Kri is built for divers who want the reef, the people and the place, with a light footprint and nothing between you and the sea.</p><p style="font-family:var(--disp);font-size:20px;line-height:26px;color:var(--brown);border-top:1px solid var(--teal);padding-top:12px;margin-top:14px">“The reef is the reason.”</p><p class="cp">Body 10.5 / 15.5 pt · Source Sans 3 &nbsp;·&nbsp; Pull quote Tenor Sans 15 pt</p></div>
+  </div></div>
+</div>
+</div></div>
+<div class="ftr"><span>PMS values are nearest-match (≈). CMYK follows exports/Colour_Specifications.json, not ICC-proofed. Approve a physical proof.</span><span>ASE teal swatch is named Lagoon Reef Teal</span></div>
+</div></body></html>

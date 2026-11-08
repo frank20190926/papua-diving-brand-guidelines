@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="ancestral diamond frame">
+<rect x="8" y="8" width="384" height="384" fill="none" stroke="#7E2F19" stroke-width="8"/>
+<rect x="26" y="26" width="348" height="348" fill="none" stroke="#C98A5B" stroke-width="2"/>
+<path d="M200,50 L350,200 L200,350 L50,200Z" fill="none" stroke="#7E2F19" stroke-width="3"/>
+<path d="M200,80 L320,200 L200,320 L80,200Z" fill="#C98A5B" />
+<path d="M200,110 L290,200 L200,290 L110,200Z" fill="#7E2F19" />
+<path d="M200,140 L260,200 L200,260 L140,200Z" fill="#DCCAAF" />
+<path d="M200,168 L232,200 L200,232 L168,200Z" fill="#A65A2A" />
+<path d="M200,188 L212,200 L200,212 L188,200Z" fill="#7E2F19" />
+<path d="M26,26 l56,0 l-56,56Z" fill="#7E2F19" transform="rotate(0 26 26)"/>
+<path d="M374,26 l56,0 l-56,56Z" fill="#7E2F19" transform="rotate(90 374 26)"/>
+<path d="M374,374 l56,0 l-56,56Z" fill="#7E2F19" transform="rotate(180 374 374)"/>
+<path d="M26,374 l56,0 l-56,56Z" fill="#7E2F19" transform="rotate(270 26 374)"/>
+<path d="M100,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M100,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,100 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,100 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M133,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M133,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,133 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,133 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M166,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M166,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,166 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,166 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M199,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M199,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,199 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,199 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M232,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M232,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,232 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,232 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M265,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M265,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,265 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,265 l-16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M298,26 l9,16 l-18,0Z" fill="#C98A5B"/>
+<path d="M298,374 l9,-16 l-18,0Z" fill="#C98A5B"/>
+<path d="M26,298 l16,9 l0,-18Z" fill="#C98A5B"/>
+<path d="M374,298 l-16,9 l0,-18Z" fill="#C98A5B"/>
+</svg>

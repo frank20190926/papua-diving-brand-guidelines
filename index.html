@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Papua Diving Resorts — Brand Guidelines 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+<style>
+:root{--linen:#F6F1EB;--coral:#EFE5D6;--brown:#7E2F19;--clay:#A65A2A;--ochre:#C98A5B;--sago:#A8B69A;--char:#2B2A27;--sand:#DCCAAF;--teal:#1A5E63;--disp:'Tenor Sans',serif;--body:'Source Sans 3',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--linen);color:var(--char);font:16px/1.55 var(--body)}
+a{color:var(--brown)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+nav{position:sticky;top:0;z-index:10;background:var(--linen);border-bottom:1.5px solid var(--brown)}
+nav .wrap{display:flex;align-items:center;gap:28px;height:60px}
+nav .brand{font-family:var(--disp);letter-spacing:.2em;font-size:14px;color:var(--brown);margin-right:auto;text-decoration:none}
+nav a.l{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;text-decoration:none;color:var(--char);padding:4px 0;border-bottom:2px solid transparent}
+nav a.l:hover{border-color:var(--ochre)}
+.kick{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);font-weight:600;margin-bottom:8px}
+h1,h2,h3{font-family:var(--disp);font-weight:400;color:var(--brown);line-height:1.12}
+h1{font-size:clamp(38px,6vw,68px)}h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:12px}h3{font-size:20px;margin-bottom:6px}
+section{padding:72px 0;border-bottom:1px solid var(--sand)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;min-height:560px;background:var(--coral)}
+.hero .t{padding:64px 48px 48px max(28px,calc((100vw - 1200px)/2 + 28px));display:flex;flex-direction:column;justify-content:center;gap:18px}
+.hero .t p{max-width:520px;font-size:18px}
+.hero .ph{background:url(assets/aug21_p01_img1.jpeg) center/cover;position:relative;min-height:360px}
+.badge{position:absolute;left:24px;bottom:24px;background:var(--linen);padding:16px 20px 12px;width:200px}
+.badge img{width:100%;mix-blend-mode:multiply;display:block}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
+.btn{display:inline-block;padding:12px 22px;background:var(--brown);color:var(--linen);text-decoration:none;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;border-radius:2px}
+.btn.o{background:none;color:var(--brown);border:1.5px solid var(--brown)}
+.btn:hover{background:var(--clay);color:var(--linen);border-color:var(--clay)}
+.grid{display:grid;gap:16px}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:1fr 1fr}
+.card{background:var(--coral);padding:22px;border-radius:2px}
+.card p{font-size:15px}
+.sw{border:0;font:inherit;text-align:left;cursor:pointer;background:#fff9;padding:0;border-radius:2px;overflow:hidden;transition:transform .15s}
+.sw:hover,.sw:focus-visible{transform:translateY(-3px);outline:2px solid var(--ochre)}
+.sw .c{height:110px;display:flex;align-items:flex-end;padding:10px;font-size:12px;font-weight:600;letter-spacing:.08em}
+.sw .m{padding:10px 12px 12px;font-size:13px;line-height:1.5}
+.sw .m b{display:block;font-family:var(--disp);font-weight:400;font-size:17px;color:var(--brown)}
+.ratio{display:flex;height:46px;margin-top:22px;border-radius:2px;overflow:hidden;font-size:12px;font-weight:600;letter-spacing:.06em}
+.ratio div{display:flex;align-items:center;padding:0 12px}
+.tabs{display:flex;gap:6px;border-bottom:1.5px solid var(--sand);margin-bottom:24px;flex-wrap:wrap}
+.tabs button{font:600 12px var(--body);letter-spacing:.14em;text-transform:uppercase;border:0;background:none;padding:12px 16px;cursor:pointer;color:var(--char);border-bottom:3px solid transparent;margin-bottom:-1.5px}
+.tabs button[aria-selected=true]{color:var(--brown);border-color:var(--brown)}
+.panel[hidden]{display:none}
+.big{font-size:140px;line-height:1;color:var(--brown)}
+table{width:100%;border-collapse:collapse}td,th{padding:12px 8px;border-bottom:1px solid var(--sand);text-align:left;vertical-align:baseline;font-size:15px}
+th{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--clay)}
+.tester{width:100%;font:inherit;background:#fff9;border:1.5px solid var(--sand);padding:14px;font-size:18px;border-radius:2px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.pair>div{padding:28px}
+.dl{display:flex;justify-content:space-between;align-items:center;gap:16px;background:var(--coral);padding:16px 20px;text-decoration:none;color:var(--char);border-radius:2px;border-left:5px solid var(--brown)}
+.dl:hover{background:var(--sand)}
+.dl b{display:block;font-family:var(--disp);font-weight:400;font-size:18px;color:var(--brown)}
+.dl span{font-size:13px;color:#5b4d40}.dl em{font-style:normal;font-size:11px;letter-spacing:.14em;font-weight:700;color:var(--clay);white-space:nowrap}
+.mo{background:var(--coral);padding:16px;text-align:center}
+.mo img{width:100%;max-height:120px;object-fit:contain;display:block;margin-bottom:10px}
+.mo a{font-size:12px;font-weight:600;letter-spacing:.1em;margin:0 6px}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--char);color:var(--linen);padding:10px 20px;border-radius:2px;opacity:0;transition:.2s;font-size:14px;pointer-events:none;z-index:20}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+footer{padding:36px 0;font-size:13px;color:#6b5a4a}
+@media(max-width:860px){.hero,.g2,.g3,.g4,.pair{grid-template-columns:1fr}.hero .t{padding:40px 28px}nav a.l{display:none}}
+</style></head>
+<body>
+<nav><div class="wrap"><a class="brand" href="#top">PAPUA DIVING RESORTS</a><a class="l" href="#brand">Brand</a><a class="l" href="#colour">Colour</a><a class="l" href="#type">Typography</a><a class="l" href="#motifs">Motifs</a><a class="l" href="#boards">Boards</a><a class="l" href="#downloads">Downloads</a></div></nav>
+
+<header id="top" class="hero"><div class="t"><div class="kick">Brand Guidelines 2026</div><h1>Papua Diving Resorts</h1>
+<p>One master brand, two ways to stay: Sorido Bay Resort (Upscale Boutique) and Kri Eco Resort (Authentic Eco-Pioneer). Logo, colour, type, motifs, photography and applications, in one place.</p>
+<div class="btns"><a class="btn" href="exports/Papua_Diving_Resorts_Brand_Boards_2026.pdf">Download boards PDF</a><a class="btn o" href="#downloads">All downloads</a></div></div>
+<div class="ph"><div class="badge"><img src="assets/papua_logo_cropped.png" alt="Papua Diving Resorts logo"></div></div></header>
+
+<section id="brand"><div class="wrap"><div class="kick">01 / Brand architecture</div><h2>Master brand over two sub-brands</h2>
+<div class="grid g3"><div class="card" style="background:var(--brown);color:var(--linen)"><div class="kick" style="color:var(--ochre)">Master brand</div><h3 style="color:var(--linen)">Papua Diving Resorts</h3><p>Carries the bird glyph, drawn from Southwest Papuan bark-cloth painting. Logo is supplied artwork and never redrawn.</p></div>
+<div class="card" style="background:var(--brown);color:var(--linen)"><div class="kick" style="color:var(--ochre)">Sub-brand · Upscale Boutique</div><h3 style="color:var(--linen)">Sorido Bay Resort</h3><p>Linen-led with Papua Brown and Ochre Clay. Refined, design-led hospitality.</p></div>
+<div class="card" style="background:var(--sago)"><div class="kick" style="color:var(--brown)">Sub-brand · Authentic Eco-Pioneer</div><h3>Kri Eco Resort</h3><p>Sago Leaf leads; Sandstone and Charcoal ground it. Honest, hands-on, close to nature.</p></div></div>
+<div class="grid g3" style="margin-top:16px"><div class="card"><h3>Clear space</h3><p>1× bird height on every side.</p></div><div class="card"><h3>Minimum size</h3><p>32 mm in print, 120 px on screen.</p></div><div class="card"><h3>Dark backgrounds</h3><p>Place the logo on a Natural Linen <b>#F6F1EB</b> holding shape.</p></div></div></div></section>
+
+<section id="colour"><div class="wrap"><div class="kick">02 / Colour system</div><h2>Bark &amp; Reef palette</h2><p style="margin-bottom:22px">Click any swatch to copy its HEX. Use <button id="fmt" class="btn o" style="padding:6px 12px;font-size:11px">HEX</button> to switch the copied format.</p>
+<div class="grid g4" id="sw"></div>
+<div class="ratio"><div style="width:60%;background:var(--linen);border:1px solid var(--sand)">60% WARM NEUTRALS</div><div style="width:25%;background:var(--brown);color:var(--linen)">25% EARTH BROWNS</div><div style="width:15%;background:var(--sago)">15% REEF</div></div>
+<p class="card" style="margin-top:16px;font-size:14px">CMYK targets follow Colour_Specifications.json (not ICC-proofed) and Pantone values are nearest-match references (≈). Confirm both against a physical swatch book at print proof.</p></div></section>
+
+<section id="type"><div class="wrap"><div class="kick">03 / Typography</div><h2>Tenor Sans + Source Sans 3</h2>
+<div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-p="p1">Display</button><button role="tab" aria-selected="false" data-p="p2">Text</button><button role="tab" aria-selected="false" data-p="p3">Hierarchy</button><button role="tab" aria-selected="false" data-p="p4">Try it</button></div>
+<div class="panel" id="p1"><div class="grid g2"><div class="big" style="font-family:var(--disp)">Aa</div><div><h3>Tenor Sans</h3><p>Display face for H1, H2, H3, cover titles and pull quotes. One weight (Regular). Replaces Karla.</p><p style="font-family:var(--disp);font-size:26px;margin-top:14px;color:var(--brown)">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz 0123456789</p></div></div></div>
+<div class="panel" id="p2" hidden><div class="grid g2"><div class="big" style="font-weight:600">Aa</div><div><h3>Source Sans 3</h3><p>Subheads, body copy, captions and tables. Regular 400, SemiBold 600, Bold 700.</p><p style="font-size:26px;margin-top:14px"><span style="font-weight:400">Regular</span> · <span style="font-weight:600">SemiBold</span> · <span style="font-weight:700">Bold</span><br>abcdefghijklmnopqrstuvwxyz 0123456789</p></div></div></div>
+<div class="panel" id="p3" hidden><table><tr><th>Level</th><th>Face · weight</th><th>Size / leading</th><th>Sample</th></tr>
+<tr><td>H1</td><td>Tenor Sans 400</td><td>44 / 50 pt</td><td style="font-family:var(--disp);font-size:30px;color:var(--brown)">Raja Ampat</td></tr>
+<tr><td>H2</td><td>Tenor Sans 400</td><td>28 / 34 pt</td><td style="font-family:var(--disp);font-size:24px;color:var(--brown)">Sorido Bay Resort</td></tr>
+<tr><td>H3</td><td>Tenor Sans 400</td><td>18 / 24 pt</td><td style="font-family:var(--disp);font-size:19px;color:var(--brown)">Kri Eco Resort</td></tr>
+<tr><td>Subhead</td><td>Source Sans 3 600, caps, +120</td><td>11 / 16 pt</td><td style="font-size:13px;letter-spacing:.14em;font-weight:600;text-transform:uppercase;color:var(--clay)">Dive the richest reefs</td></tr>
+<tr><td>Body copy</td><td>Source Sans 3 400</td><td>10.5 / 15.5 pt</td><td>Warm, plain, human.</td></tr>
+<tr><td>Caption</td><td>Source Sans 3 400 italic</td><td>8 / 11 pt</td><td style="font-style:italic;font-size:13px">Photo: employer archive</td></tr>
+<tr><td>Table text</td><td>Source Sans 3 400 / 600</td><td>9 / 12 pt</td><td style="font-size:14px"><b>Depth</b> 18 m</td></tr></table></div>
+<div class="panel" id="p4" hidden><input class="tester" id="tt" value="Dive the richest reefs in the world" aria-label="Type your own text"><div class="pair" style="margin-top:16px"><div style="background:var(--brown);color:var(--linen)"><div class="kick" style="color:var(--ochre)">Sorido Bay Resort</div><div id="t1" style="font-family:var(--disp);font-size:34px;line-height:1.15"></div><p style="margin-top:10px">Body 10.5 / 15.5 pt, Source Sans 3.</p></div><div style="background:var(--sago)"><div class="kick" style="color:var(--brown)">Kri Eco Resort</div><div id="t2" style="font-family:var(--disp);font-size:34px;line-height:1.15"></div><p style="margin-top:10px">Body 10.5 / 15.5 pt, Source Sans 3.</p></div></div></div></div></section>
+
+<section id="motifs"><div class="wrap"><div class="kick">04 / Bark-cloth motifs</div><h2>Four scalable vectors</h2><p style="margin-bottom:20px;max-width:720px">Maximum one motif per layout. 15–25% opacity on Linen or Sandstone; 100% only as an Ochre Clay or Papua Brown trim.</p>
+<div class="grid g2" id="mo"></div></div></section>
+
+<section id="boards"><div class="wrap"><div class="kick">05 / Presentation boards</div><h2>Four boards, 1600 × 1200</h2>
+<div class="grid g4"><a class="dl" href="board1-claude.html"><div><b>01 Brand &amp; Logo</b><span>Architecture, clear space, misuse</span></div><em>OPEN</em></a><a class="dl" href="board2-claude.html"><div><b>02 Colour &amp; Type</b><span>Palette, ratios, hierarchy</span></div><em>OPEN</em></a><a class="dl" href="board3-claude.html"><div><b>03 Motifs &amp; Photo</b><span>Vectors and direction</span></div><em>OPEN</em></a><a class="dl" href="board4-claude.html"><div><b>04 Applications</b><span>Apparel, print, digital</span></div><em>OPEN</em></a></div></div></section>
+
+<section id="downloads" style="border:0"><div class="wrap"><div class="kick">06 / Download hub</div><h2>Files</h2>
+<div class="grid g2">
+<a class="dl" href="exports/Papua_Diving_Resorts_Brand_Boards_2026.pdf" download><div><b>Presentation Boards 2026</b><span>4 boards, 1600 × 1200 pages</span></div><em>PDF</em></a>
+<a class="dl" href="exports/Papua_Diving_Resorts_Brand_Guidelines_2026.pdf" download><div><b>Brand Guidelines Book 2026</b><span>A4 printable reference book</span></div><em>PDF</em></a>
+<a class="dl" href="exports/Papua_Diving_Resorts_2026_Master_Palette.ase" download><div><b>Master Palette</b><span>9 colours (RGB and CMYK groups) for Adobe apps; teal swatch is named Lagoon Reef Teal</span></div><em>.ASE</em></a>
+<a class="dl" href="assets/papua_logo_cropped.png" download><div><b>Master Logo</b><span>Official artwork, unaltered. White background; use on Linen.</span></div><em>PNG</em></a>
+<a class="dl" href="exports/motifs/" ><div><b>Vector motifs folder</b><span>Four SVG and four PNG files</span></div><em>FOLDER</em></a></div></div></section>
+
+<footer><div class="wrap">Papua Diving Resorts Brand Guidelines 2026. Logo, photography and mockups: employer-supplied. Motif vectors redrawn for this guideline.</div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const P=[["Papua Brown","7E2F19","24·83·91·29","1815 C","#F6F1EB"],["Bark Clay","A65A2A","22·65·86·12","7516 C","#F6F1EB"],["Ochre Clay","C98A5B","17·46·68·3","7514 C","#2B2A27"],["Sandstone","DCCAAF","13·18·31·0","7500 C","#2B2A27"],["Coral Sand","EFE5D6","5·8·14·0","7500 C @ 20%","#2B2A27"],["Natural Linen","F6F1EB","3·4·7·0","Paper stock","#2B2A27"],["Bark Charcoal","2B2A27","69·63·67·72","Black 7 C","#F6F1EB"],["Sago Leaf","A8B69A","36·19·41·2","7494 C","#2B2A27"],["Raja Ampat Lagoon Teal (Sorido accent only)","1A5E63","85·34·42·18","7476 C","#F6F1EB"]];
+let mode=0;const modes=["HEX","RGB","CMYK"];
+const rgb=h=>[0,2,4].map(i=>parseInt(h.slice(i,i+2),16));
+const val=p=>mode==0?"#"+p[1]:mode==1?rgb(p[1]).join(", "):p[2].replace(/·/g,", ");
+function draw(){document.getElementById("sw").innerHTML=P.map((p,i)=>`<button class="sw" data-i="${i}" aria-label="Copy ${p[0]}"><div class="c" style="background:#${p[1]};color:${p[4]};${p[1]=="F6F1EB"||p[1]=="EFE5D6"?"box-shadow:inset 0 0 0 1px #0002":""}">${val(p)}</div><div class="m"><b>${p[0]}</b>#${p[1]}<br>RGB ${rgb(p[1]).join("·")}<br>CMYK ${p[2]}<br>PMS ≈ ${p[3]}</div></button>`).join("")}
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("on");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove("on"),1600)}
+document.getElementById("sw").addEventListener("click",e=>{const b=e.target.closest(".sw");if(!b)return;const p=P[b.dataset.i],v=val(p);(navigator.clipboard?navigator.clipboard.writeText(v):Promise.reject()).then(()=>toast("Copied "+v+" · "+p[0]),()=>toast(v+" · "+p[0]+" (select to copy)"))});
+document.getElementById("fmt").onclick=function(){mode=(mode+1)%3;this.textContent=modes[mode];draw()};draw();
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",x==b));document.querySelectorAll(".panel").forEach(p=>p.hidden=p.id!=b.dataset.p)});
+const tt=document.getElementById("tt"),up=()=>{t1.textContent=t2.textContent=tt.value};tt.oninput=up;up();
+const M=[["sentani_chevron_border","Sentani / Southwest Papuan Chevron Border"],["reef_current_wave_divider","Reef Current Wave Divider"],["ancestral_diamond_frame","Ancestral Diamond Frame"],["eco_stamp_seal","Eco Stamp Seal"]];
+document.getElementById("mo").innerHTML=M.map(m=>`<div class="mo"><img src="exports/motifs/${m[0]}.svg" alt="${m[1]}"><h3 style="font-size:17px">${m[1]}</h3><a href="exports/motifs/${m[0]}.svg" download>SVG</a><a href="exports/motifs/${m[0]}.png" download>PNG</a></div>`).join("");
+</script></body></html>

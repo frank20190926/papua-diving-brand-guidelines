@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>01 / Brand Architecture, Logo System &amp; Southwest Papuan Heritage — Papua Diving Resorts</title>
+<meta name="viewport" content="width=1600">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/board.css">
+<style>
+.grid{display:grid;grid-template-rows:432px 322px 1fr;gap:12px;height:100%}
+.hero{display:grid;grid-template-columns:640px 1fr 300px;gap:12px}
+.photo{position:relative;border-radius:2px;overflow:hidden}
+.badge{position:absolute;left:18px;bottom:18px;background:var(--linen);padding:14px 18px 10px;width:176px;border-radius:2px;box-shadow:0 2px 10px #0004}
+.badge img{width:100%}
+.badge span{display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--brown);margin-top:4px;text-align:center;font-weight:600}
+.cap{position:absolute;right:12px;bottom:10px;font-size:10.5px;color:#fff;letter-spacing:.08em;text-shadow:0 1px 3px #000a}
+.intro{display:flex;flex-direction:column;justify-content:space-between;padding:22px 26px}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+.pillars div{border-top:2px solid var(--clay);padding-top:6px}
+.pillars b{font-family:var(--disp);font-weight:400;color:var(--brown);font-size:14px;display:block}
+.heri{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;grid-template-rows:1fr auto}
+.heri img{width:100%;height:100%;object-fit:cover;border-radius:2px}
+.row2{display:grid;grid-template-columns:1.1fr .9fr 1fr;gap:12px}
+/* clear space */
+.cs{display:flex;align-items:center;justify-content:center;height:230px;margin-top:6px}
+.cs-box{position:relative;padding:50px;border:1.5px dashed var(--clay);background:repeating-linear-gradient(45deg,#c98a5b14 0 6px,transparent 6px 12px)}
+.cs-box .inner{background:var(--linen);outline:1px solid var(--brown)}
+.cs-box img{width:150px;display:block}
+.x{position:absolute;width:50px;height:50px;border:1px solid var(--brown);background:#7e2f1922;color:var(--brown);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.bh{position:absolute;left:50px;top:50px;width:0}
+.dim{position:absolute;font-size:11px;color:var(--brown);font-weight:600}
+/* min size */
+.ms{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px;align-items:end}
+.ms .box{background:var(--linen);height:150px;display:flex;align-items:center;justify-content:center;position:relative}
+.ms .big{font-family:var(--disp);font-size:28px;color:var(--brown);line-height:1}
+.ruler{height:8px;border-left:1px solid var(--brown);border-right:1px solid var(--brown);border-bottom:1px solid var(--brown);margin:6px auto 0}
+/* dark */
+.dk{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.dk .s{height:150px;position:relative;display:flex;align-items:center;justify-content:center;border-radius:2px;overflow:hidden}
+.dk .s .b{background:var(--linen);padding:9px 12px 6px;width:104px;position:relative;z-index:1}
+.dk .s .b img{width:100%}
+/* misuse */
+.row3{display:grid;grid-template-columns:790px 1fr;gap:12px}
+.mis{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:8px}
+.mis .t{background:var(--linen);height:104px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:2px}
+.mis .t img{width:62px}
+.mis .t:after{content:"✕";position:absolute;right:4px;top:2px;color:#b3261e;font-weight:700;font-size:15px}
+.mis p{font-size:11px;line-height:1.3;margin-top:5px;color:#4a3d32}
+/* architecture */
+.arch{position:relative;height:218px;margin-top:6px}
+.m{position:absolute;left:50%;top:0;transform:translateX(-50%);width:400px;background:var(--brown);color:var(--linen);text-align:center;padding:9px 12px;border-radius:2px}
+.m .n{font-family:var(--disp);font-size:20px;letter-spacing:.08em}
+.m .s{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--sand)}
+.ln{position:absolute;background:var(--clay)}
+.sub{position:absolute;top:88px;width:48%;height:130px;padding:10px 14px;border-radius:2px}
+.sub .e{font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.sub .n{font-family:var(--disp);font-size:19px;line-height:1.1;margin:2px 0 3px}
+.sub .r{font-size:11.5px;line-height:1.35}
+.sw{display:flex;gap:4px;margin-top:6px}.sw i{width:26px;height:14px;display:block;border-radius:1px;border:1px solid #0002}
+</style></head>
+<body><div class="board">
+<div class="hdr"><b>PAPUA DIVING RESORTS</b><span>Brand Guidelines 2026 &nbsp;·&nbsp; Sorido Bay Resort &amp; Kri Eco Resort</span><span>Board 01 / 04</span></div>
+<div class="content"><div class="grid">
+
+<div class="hero">
+  <div class="photo"><img class="cover" src="assets/aug21_p01_img1.jpeg" alt="Aerial view of Raja Ampat island, jetty and lagoon">
+    <div class="badge"><img class="logo" src="assets/papua_logo_cropped.png" alt="Papua Diving Resorts logo"><span>Natural Linen holding shape</span></div>
+    <div class="cap">RAJA AMPAT, WEST PAPUA — EMPLOYER PHOTOGRAPHY</div></div>
+  <div class="card intro">
+    <div><div class="kick">01 / Brand Architecture, Logo System &amp; Heritage</div>
+    <h1>One bird. One bay.<br>Two ways to stay.</h1>
+    <p style="margin-top:12px;max-width:470px">Papua Diving Resorts welcomes divers to Raja Ampat, West Papua. The master brand carries a heritage bird glyph drawn from Southwest Papuan bark-cloth painting, rendered in Papua Brown. Sorido Bay Resort and Kri Eco Resort sit beneath it as endorsed sub-brands, each with its own voice and colour weighting.</p></div>
+    <div class="pillars">
+      <div><b>Heritage</b><span class="sm">Bird glyph drawn from Southwest Papuan bark-cloth painting.</span></div>
+      <div><b>Place</b><span class="sm">Reef, jetty and rainforest are the primary imagery.</span></div>
+      <div><b>People</b><span class="sm">Local Papuan hospitality leads every story.</span></div>
+    </div>
+    <div class="sm" style="border-top:1px solid var(--sand);padding-top:8px">The official master logo is supplied artwork and is never redrawn, recoloured or re-typeset.</div>
+  </div>
+  <div class="card" style="padding:12px"><div class="kick">Source of the bird glyph</div>
+    <div class="heri" style="height:352px"><img src="assets/brief_p3_img1.jpeg" alt="Bark cloth"><img src="assets/brief_p3_img2.jpeg" alt="Bark cloth"><img src="assets/brief_p3_img3.jpeg" alt="Bark cloth"></div>
+    <div class="sm" style="margin-top:6px">Southwest Papuan bark-cloth paintings (employer-supplied).</div></div>
+</div>
+
+<div class="row2">
+  <div class="card w"><div class="kick">Logo System · Clear Space</div><h2>1× Bird Height on every side</h2>
+    <div class="cs"><div class="cs-box"><div class="inner"><img class="logo" src="assets/papua_logo_cropped.png" alt="logo"></div>
+      <div class="x" style="left:0;top:0">1×</div><div class="x" style="right:0;top:0">1×</div><div class="x" style="left:0;bottom:0">1×</div><div class="x" style="right:0;bottom:0">1×</div>
+      <div class="dim" style="left:-1px;top:-20px;display:none"></div></div>
+      <div style="margin-left:20px;max-width:190px"><p class="sm"><b>1× = height of the bird glyph</b> (about 32% of total logo height). Keep this margin clear of text, photo edges, borders and other logos.</p><p class="sm" style="margin-top:6px">Only the Natural Linen holding shape may sit inside the clear zone.</p></div></div>
+  </div>
+  <div class="card w"><div class="kick">Logo System · Minimum Size</div><h2>32 mm print / 120 px digital</h2>
+    <div class="ms"><div><div class="box"><img class="logo" src="assets/papua_logo_cropped.png" style="width:120px" alt=""></div><div class="ruler" style="width:120px"></div><p class="sm" style="text-align:center">Digital — <b>120 px</b> wide</p></div>
+    <div><div class="box"><img class="logo" src="assets/papua_logo_cropped.png" style="width:121px" alt=""></div><div class="ruler" style="width:121px"></div><p class="sm" style="text-align:center">Print — <b>32 mm</b> wide</p></div></div>
+    <p class="sm" style="margin-top:8px">Below these sizes the RESORTS line closes up. Use the bird glyph alone only where the master logo cannot reach minimum size, and only with approval.</p>
+  </div>
+  <div class="card w"><div class="kick">Logo System · Dark Backgrounds</div><h2>Natural Linen holding shape</h2>
+    <div class="dk"><div class="s" style="background:var(--char)"><div class="b"><img class="logo" src="assets/papua_logo_cropped.png" alt=""></div></div>
+    <div class="s"><img class="cover" src="assets/aug21_p06_img1.jpeg" alt="" style="position:absolute;inset:0"><div class="b"><img class="logo" src="assets/papua_logo_cropped.png" alt=""></div></div></div>
+    <p class="sm" style="margin-top:8px">On dark or photographic surfaces the logo sits on a <b>#F6F1EB</b> badge with padding of at least ½ bird height. The logo is never reversed to white and never placed directly on a photograph.</p>
+  </div>
+</div>
+
+<div class="row3">
+  <div class="card w"><div class="kick">Logo Misuse</div><h2>Six things we never do</h2>
+    <div class="mis">
+      <div><div class="t"><img class="logo" style="transform:scaleX(1.5)" src="assets/papua_logo_cropped.png" alt=""></div><p>Do not stretch or squash.</p></div>
+      <div><div class="t"><img class="logo" style="transform:rotate(-18deg)" src="assets/papua_logo_cropped.png" alt=""></div><p>Do not rotate or tilt.</p></div>
+      <div><div class="t"><img class="logo" style="filter:hue-rotate(160deg) saturate(3)" src="assets/papua_logo_cropped.png" alt=""></div><p>Do not recolour the glyph.</p></div>
+      <div><div class="t" style="background:url(assets/aug21_p06_img1.jpeg) center/cover"><img class="logo" src="assets/papua_logo_cropped.png" alt=""></div><p>Do not place on photos without the holding shape.</p></div>
+      <div><div class="t"><img class="logo" style="filter:drop-shadow(4px 5px 3px #000a)" src="assets/papua_logo_cropped.png" alt=""></div><p>Do not add shadows or effects.</p></div>
+      <div><div class="t"><div style="width:62px;height:30px;overflow:hidden"><img class="logo" style="width:62px" src="assets/papua_logo_cropped.png" alt=""></div></div><p>Do not crop or separate the bird from the wordmark.</p></div>
+    </div></div>
+  <div class="card w"><div class="kick">Brand Architecture</div><h2>Endorsed model: master brand over two sub-brands</h2>
+    <div class="arch">
+      <div class="m"><div class="s">Master Brand</div><div class="n">Papua Diving Resorts</div></div>
+      <div class="ln" style="left:50%;top:56px;width:2px;height:16px"></div><div class="ln" style="left:25%;right:25%;top:72px;height:2px"></div>
+      <div class="ln" style="left:25%;top:72px;width:2px;height:16px"></div><div class="ln" style="right:25%;top:72px;width:2px;height:16px"></div>
+      <div class="sub" style="left:0;background:var(--brown);color:var(--linen)"><div class="e">Sub-brand · Upscale Boutique</div><div class="n">Sorido Bay Resort</div><div class="r">Refined, design-led hospitality. Warm Papua Brown and Ochre lead; Linen gives space.</div><div class="sw"><i style="background:#7E2F19"></i><i style="background:#C98A5B"></i><i style="background:#F6F1EB"></i></div></div>
+      <div class="sub" style="right:0;background:var(--sago);color:var(--char)"><div class="e">Sub-brand · Authentic Eco-Pioneer</div><div class="n">Kri Eco Resort</div><div class="r">Honest, hands-on, close to nature. Sago Leaf leads; Sandstone and Charcoal ground it.</div><div class="sw"><i style="background:#A8B69A"></i><i style="background:#DCCAAF"></i><i style="background:#2B2A27"></i></div></div>
+    </div></div>
+</div>
+
+</div></div>
+<div class="ftr"><span>Master logo: employer-supplied artwork, unaltered. Photography and bark-cloth images: employer brief.</span><span>Tenor Sans + Source Sans 3 &nbsp;·&nbsp; Papua Diving Resorts Brand Guidelines 2026</span></div>
+</div></body></html>
